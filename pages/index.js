@@ -8,6 +8,7 @@ export default function Home() {
         <title>JG Vieira - Página Inicial</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h1>Início</h1>
     </Layout>
   )
 }
