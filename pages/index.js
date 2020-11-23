@@ -6,7 +6,11 @@ export default function Home() {
     <div id="page">
       <h1>JG Vieira</h1>
       <p>
+<<<<<<< HEAD
         menu 2
+=======
+        menu
+>>>>>>> 95d871503174dd0db0778d4f251772d6093ecaaf
       </p>
     </div>
   )
