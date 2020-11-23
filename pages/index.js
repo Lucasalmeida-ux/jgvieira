@@ -1,10 +1,13 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Layout from './componetns/layout'
 
 export default function Home() {
   return (
-    <div id="page">
-      <h1>JG Vieira</h1>
-    </div>
+    <Layout>
+      <Head>
+        <title>JG Vieira - Página Inicial</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+    </Layout>
   )
 }
