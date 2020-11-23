@@ -7,11 +7,12 @@ export default function Home() {
       <h1>JG Vieira</h1>
       <p>
 <<<<<<< HEAD
-        menu 2
+        men
 =======
         menu
 >>>>>>> 95d871503174dd0db0778d4f251772d6093ecaaf
       </p>
+      <p>papao</p>
     </div>
   )
 }
