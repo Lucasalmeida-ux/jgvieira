@@ -1,5 +1,5 @@
-import Header from "./componetns/header";
-import Layout from "./componetns/layout";
+import Header from "./components/header";
+import Layout from "./components/layout";
 
 export default function Contato(){
     return(

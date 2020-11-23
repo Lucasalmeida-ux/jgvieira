@@ -1,4 +1,4 @@
-import Layout from "./componetns/layout";
+import Layout from "./components/layout";
 
 export default function Produtos(){
     return(
