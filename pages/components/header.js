@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const menuItens = [
     {link: "/quem-somos", label: "Quem Somos", key: "quemsomos"},
-    {link: "/produtos", label: "Produtos e Serviços", key: "produtos"},
+    {link: "/produtos", label: "Produtos e Serviços", key: "produtoseservicos"},
     {link: "/contato", label: "Contato", key: "contato"},
 ]
 
@@ -16,9 +16,9 @@ const Menu = () => (
     <nav className="p-2 flex itens-center">
         <ul className="md:p-4">
         { menuItens.map(function(item) {
-            return <li key={item.key} className="inline px-4 font-semibold">
-                <Link href={item.link} className="bg-black"><a className="bg-black">{item.label}</a></Link>
-                </li>
+            return  <navItem key={item.key} href={item.link} className="inline px-4 font-semibold">
+                        {item.label}
+                    </navItem>
         }) }
         </ul>
     </nav>
