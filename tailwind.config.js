@@ -5,7 +5,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      black: "#000"
+      gray: colors.coolGray,
+      indigo: colors.indigo,
+      red: colors.rose,
+      yellow: colors.amber,
+      blue: colors.lightBlue,
+      white: "#ffffff",
     },
     container: {
       center: true,

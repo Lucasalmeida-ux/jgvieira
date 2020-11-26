@@ -1,5 +1,9 @@
 import Head from 'next/head'
 import Layout from './components/layout'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
 
 export default function Home() {
   return (
